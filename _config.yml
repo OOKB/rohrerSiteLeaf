@@ -5,6 +5,9 @@ collections:
   articles:
     title: Articles
     output: true
+  awards:
+    title: Awards
+    output: true
   people:
     title: People
     output: true
