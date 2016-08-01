@@ -32,4 +32,14 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: projects
+  values:
+    areaSqFt:
+    categories: ["Restaurant","Adaptive Reuse","Office"]
+    location:
+      city:
+      state:
+    yearCompleted:
 permalink: pretty
