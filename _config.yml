@@ -17,6 +17,12 @@ collections:
   projects:
     title: Projects
     output: true
+    Location:
+      City: 
+      State: 
+    Categories:
+    - 
+    - 
   uploads:
     title: Uploads
     output: true
