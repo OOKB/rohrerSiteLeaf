@@ -36,8 +36,9 @@ defaults:
     path: ''
     type: projects
   values:
-    areaSqFt:
+    area:
     categories: ["Restaurant","Adaptive Reuse","Office"]
+    layout: project
     location:
       city:
       state:
