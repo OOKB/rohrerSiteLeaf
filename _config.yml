@@ -20,7 +20,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-
 defaults:
 - scope:
     path: ''
@@ -35,21 +34,23 @@ defaults:
     layout: page
 - scope:
     path: ''
-    type: "projects"
+    type: projects
   values:
-    area:
-    categories: ["Restaurant","Adaptive Reuse","Office"]
+    area: 
+    categories:
+    - Restaurant
+    - Adaptive Reuse
+    - Office
     layout: project
     location:
-      city:
-      state:
-    yearCompleted:
+      city: 
+      state: 
+    yearCompleted: 
 - scope:
     path: ''
-    type: "articles"
+    type: articles
   values:
-    datePublished:
-    url:
-    publication:
-
+    datePublished: 
+    url: 
+    publication: 
 permalink: pretty
