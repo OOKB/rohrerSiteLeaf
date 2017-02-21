@@ -7,7 +7,7 @@ collections:
     output: true
   awards:
     title: Awards
-    output: true
+    output: false
   people:
     title: People
     output: true
@@ -32,4 +32,25 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: projects
+  values:
+    area: 
+    categories:
+    - Restaurant
+    - Adaptive Reuse
+    - Office
+    layout: project
+    location:
+      city: 
+      state: 
+    yearCompleted: 
+- scope:
+    path: ''
+    type: articles
+  values:
+    datePublished: 
+    url: 
+    publication: 
 permalink: pretty
