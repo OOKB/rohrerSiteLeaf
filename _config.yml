@@ -7,7 +7,7 @@ collections:
     output: true
   awards:
     title: Awards
-    output: true
+    output: false
   people:
     title: People
     output: true
